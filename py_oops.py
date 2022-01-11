@@ -35,8 +35,11 @@ class Line:
         print(self.slope)
 
     #should return a string type and not a non-type
+    #dendar methods... overriding the standard methods
+    #with your defintion.
     def __str__(self):
        return f"x1 {self.x1} x2 {self.x2}"
+       
 
 c1 = (3,2)
 c2 = (4,5)
